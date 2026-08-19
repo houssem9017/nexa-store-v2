@@ -46,6 +46,18 @@ footer { padding:44px 25px 102px; background:var(--ink); color:#e9edf4; }.footer
 .categoryRail { padding:5px 20px 10px 4px; }.categoryCard.selected span { outline-offset:3px; }
 .categoryCard:hover span { transform:none; }.categoryCard:hover span svg { transform:scale(1.12); }
 .wish { display:grid; place-items:center; }.wish svg { transition:transform .18s ease; }.wish:hover svg { transform:scale(1.13); }.wish.isFavorite { color:var(--coral); }
+.siteFooter { padding:42px 25px max(82px,env(safe-area-inset-bottom)); }
+.footerMain { display:grid; gap:35px; }
+.footerIntro p { max-width:250px; margin:12px 0 0; color:#a7b2c5; font-size:13px; line-height:1.5; }
+.siteFooter .footerLinks { margin:0; gap:22px; }
+.siteFooter .footerLinks div { gap:10px; }
+.siteFooter .footerLinks strong { font-size:12px; }
+.siteFooter .footerLinks a { font-size:12px; line-height:1.35; }
+.footerBottom { margin-top:38px; padding-top:18px; border-top:1px solid rgba(233,237,244,.17); display:flex; flex-wrap:wrap; gap:12px 22px; align-items:center; justify-content:space-between; }
+.siteFooter .footerBottom small,.siteFooter .footerBottom a { color:#9aa8bb; font:10px "DM Mono"; letter-spacing:.015em; }
+.siteFooter .footerBottom a { color:#e9edf4; }.siteFooter .footerBottom a:hover { color:#ff9b89; }
+@media (min-width:760px) { .siteFooter { padding:48px 5.5vw 28px; } .siteFooter .footerMain { grid-template-columns:minmax(250px,1.05fr) minmax(520px,1.95fr); gap:72px; align-items:start; } .siteFooter .footerLinks { grid-template-columns:repeat(3,1fr); gap:36px; } .siteFooter .footerLinks strong { font-size:13px; } .siteFooter .footerLinks a { font-size:13px; } .siteFooter .footerBottom { margin-top:36px; } }
+@media (min-width:1150px) { .siteFooter { padding-left:11vw; padding-right:11vw; } }
 .collectionCard { height:227px; min-height:0; }
 .collectionCard.large { height:295px; min-height:0; }
 .collectionCard img { inset:0; height:100%; object-position:center; }
