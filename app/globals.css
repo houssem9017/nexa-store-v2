@@ -57,6 +57,11 @@ footer { padding:44px 25px 102px; background:var(--ink); color:#e9edf4; }.footer
 .mobileNav button.active { color:var(--coral); }.mobileNav button.active:after { content:none; }
 .mobileNav { align-items:center; }
 .mobileNav button,.mobileNav a { align-self:center; }
+.mobileNav { height:60px; padding:3px 14px; }
+.mobileNav button,.mobileNav a { height:54px; grid-template-rows:24px 13px; gap:3px; }
+.mobileNav .mobileNavIcon { width:23px; height:23px; }
+.mobileNav button span,.mobileNav a>span:last-child { font-size:10px; line-height:13px; }
+.siteFooter { padding-bottom:64px; }
 .searchSuggestions button { display:inline-flex; align-items:center; gap:6px; }
 .searchSuggestions .suggestedArrow { width:14px; height:14px; flex:none; }
 .siteFooter { padding:42px 25px max(82px,env(safe-area-inset-bottom)); }
