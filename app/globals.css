@@ -50,6 +50,11 @@ footer { padding:44px 25px 102px; background:var(--ink); color:#e9edf4; }.footer
 .mobileNav .mobileNavIcon { width:21px; height:21px; display:block; }
 .mobileNav button span,.mobileNav a>span:last-child { font-size:9px; line-height:12px; }
 .mobileNav a .mobileNavIcon + b { top:3px; right:calc(50% - 17px); }
+.mobileNav { height:calc(56px + env(safe-area-inset-bottom)); padding:3px max(14px,env(safe-area-inset-right)) calc(3px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left)); }
+.mobileNav button,.mobileNav a { height:50px; grid-template-rows:19px 11px; gap:3px; -webkit-tap-highlight-color:transparent; }
+.mobileNav .mobileNavIcon { width:19px; height:19px; flex:none; stroke-linecap:round; stroke-linejoin:round; }
+.mobileNav button span,.mobileNav a>span:last-child { font-size:8px; line-height:11px; }
+.mobileNav button.active { color:var(--coral); }.mobileNav button.active:after { content:none; }
 .siteFooter { padding:42px 25px max(82px,env(safe-area-inset-bottom)); }
 .footerMain { display:grid; gap:35px; }
 .footerIntro p { max-width:250px; margin:12px 0 0; color:#a7b2c5; font-size:13px; line-height:1.5; }
