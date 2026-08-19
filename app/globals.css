@@ -46,6 +46,12 @@ footer { padding:44px 25px 102px; background:var(--ink); color:#e9edf4; }.footer
 .categoryRail { padding:5px 20px 10px 4px; }.categoryCard.selected span { outline-offset:3px; }
 .categoryCard:hover span { transform:none; }.categoryCard:hover span svg { transform:scale(1.12); }
 .wish { display:grid; place-items:center; }.wish svg { transition:transform .18s ease; }.wish:hover svg { transform:scale(1.13); }.wish.isFavorite { color:var(--coral); }
+.collectionCard { height:227px; min-height:0; }
+.collectionCard.large { height:295px; min-height:0; }
+.collectionCard img { inset:0; height:100%; object-position:center; }
+.quickAdd { display:grid; place-items:center; }
+.quickAdd span { position:absolute; right:12px; float:none; margin:0; line-height:1; }
+@media (min-width:760px) { .collectionCard, .collectionCard.large { height:430px; min-height:0; } }
 .favoritesContent { max-width:1100px; margin:auto; padding:58px 20px; }.favoritesContent h1 { margin:0; font:500 43px/.98 "Playfair Display"; letter-spacing:-.06em; }.favoritesContent h1 small { color:var(--muted); font:13px "DM Sans"; }.favoritesGrid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px 14px; margin-top:34px; }.favoritesGrid article { position:relative; display:grid; gap:7px; }.favoritesGrid article>a:first-child { height:220px; background:#edf0f5; }.favoritesGrid img { width:100%; height:100%; object-fit:cover; }.favoritesGrid article>button { position:absolute; top:9px; right:9px; border:0; width:35px; height:35px; display:grid; place-items:center; border-radius:50%; background:rgba(255,255,255,.9); color:var(--coral); }.favoritesGrid small { color:var(--muted); font:9px "DM Mono"; }.favoritesGrid h2 { margin:0; font-size:13px; }.favoritesGrid strong { font-size:13px; }.favoritesEmpty { max-width:400px; padding:75px 0; text-align:center; color:var(--ink); }.favoritesEmpty>svg { color:var(--coral); }.favoritesEmpty h2 { font:500 28px "Playfair Display"; margin:18px 0 8px; }.favoritesEmpty p { color:var(--muted); font-size:13px; margin-bottom:23px; }
 .favoritesContent h1 small { display:inline-flex; align-items:center; vertical-align:middle; margin:0 0 4px 8px; padding:5px 8px; border-radius:999px; background:#ffe1d8; color:#bd4f3d; font:600 11px/1 "DM Sans"; letter-spacing:0; white-space:nowrap; }
 @media (min-width:760px) { .favoritesContent { padding:80px 5.5vw; }.favoritesGrid { grid-template-columns:repeat(4,minmax(0,1fr)); gap:25px; }.favoritesGrid article>a:first-child { height:290px; } }
