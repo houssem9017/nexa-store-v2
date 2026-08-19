@@ -20,7 +20,7 @@ const products: Product[] = [
   { id: 1, name: "Casque Halo Pro", brand: "SONOSPHERE", price: 289, oldPrice: 359, image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85", color: "#d6c2ff", badge: "-20%", rating: 4.9, category: "Audio" },
   { id: 2, name: "Pulse Watch S", brand: "NEXA LAB", price: 219, image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=85", color: "#f6c3a8", badge: "Nouveau", rating: 4.8, category: "Wearables" },
   { id: 3, name: "Orbit Mini Speaker", brand: "AER", price: 149, oldPrice: 179, image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85", color: "#8bc5ff", badge: "Best-seller", rating: 4.7, category: "Audio" },
-  { id: 4, name: "Rise 3-in-1 Charge", brand: "FORM", price: 119, image: "https://images.unsplash.com/photo-1583863788434-e58a36330c3a?auto=format&fit=crop&w=900&q=85", color: "#b5ead7", rating: 4.6, category: "Accessoires" },
+  { id: 4, name: "Rise 3-in-1 Charge", brand: "FORM", price: 119, image: "https://www.twelvesouth.com/cdn/shop/articles/hirise_3_deluxe_header_2387ab3a-71b3-4dab-8a0c-3c57f165d853.png?v=1753365024&width=1200", color: "#b5ead7", rating: 4.6, category: "Accessoires" },
   { id: 5, name: "Clavier Arc 75", brand: "KEYS", price: 199, image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=85", color: "#ffccad", badge: "Nouveau", rating: 4.8, category: "Gaming" },
   { id: 6, name: "Caméra Nest View", brand: "HOMEWAY", price: 179, oldPrice: 209, image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=900&q=85", color: "#c5d4ff", rating: 4.5, category: "Maison" },
 ];
