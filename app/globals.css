@@ -46,6 +46,10 @@ footer { padding:44px 25px 102px; background:var(--ink); color:#e9edf4; }.footer
 .categoryRail { padding:5px 20px 10px 4px; }.categoryCard.selected span { outline-offset:3px; }
 .categoryCard:hover span { transform:none; }.categoryCard:hover span svg { transform:scale(1.12); }
 .wish { display:grid; place-items:center; }.wish svg { transition:transform .18s ease; }.wish:hover svg { transform:scale(1.13); }.wish.isFavorite { color:var(--coral); }
+.mobileNav button,.mobileNav a { height:58px; min-width:0; display:grid; grid-template-rows:22px 12px; justify-items:center; align-items:center; gap:4px; font-size:inherit; line-height:1; }
+.mobileNav .mobileNavIcon { width:21px; height:21px; display:block; }
+.mobileNav button span,.mobileNav a>span:last-child { font-size:9px; line-height:12px; }
+.mobileNav a .mobileNavIcon + b { top:3px; right:calc(50% - 17px); }
 .siteFooter { padding:42px 25px max(82px,env(safe-area-inset-bottom)); }
 .footerMain { display:grid; gap:35px; }
 .footerIntro p { max-width:250px; margin:12px 0 0; color:#a7b2c5; font-size:13px; line-height:1.5; }
